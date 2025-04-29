@@ -83,9 +83,6 @@ document.addEventListener("alpine:init", () => {
     show(item) {
       this.item = item; // isi datanya saat klik
       this.open = true; // buka modal
-      this.$nextTick(() => {
-        feather.replace();
-      });
     },
 
     close() {
