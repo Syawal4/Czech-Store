@@ -1,4 +1,3 @@
-<!-- Html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -185,10 +184,13 @@
             <div class="modal-price" x-text="rupiah(item.price)"></div>
             <a
               href="#"
-              class="btn-add-cart"
+              class="box-add-cart"
               @click.prevent="$store.cart.add(item)"
             >
-              <i data-feather="shopping-cart"></i> Tambah ke Keranjang
+              <svg class="btn-add-cart">
+                <use href="img/feather-sprite.svg#shopping-cart" />
+              </svg>
+              Tambah ke Keranjang
             </a>
           </div>
         </div>
