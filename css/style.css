@@ -1,4 +1,3 @@
-/* style.css */
 :root {
   --white: #eff0f5;
   --black: #1e1e1e;
@@ -422,7 +421,7 @@ body {
   font-weight: 600;
 }
 
-.btn-add-cart {
+.box-add-cart {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -433,6 +432,16 @@ body {
   border-radius: 0.75rem;
   text-decoration: none;
   transition: transform 0.3s ease;
+}
+
+.btn-add-cart {
+  width: 2rem;
+  height: 2rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .btn-add-cart:hover {
