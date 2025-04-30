@@ -77,16 +77,16 @@ document.addEventListener("alpine:init", () => {
   }));
 
   Alpine.data("productDetail", () => ({
-    open: false, // untuk ngatur modal open/close
-    item: {}, // untuk data produk yang diklik
+    open: false,
+    item: {},
 
     show(item) {
-      this.item = item; // isi datanya saat klik
-      this.open = true; // buka modal
+      this.item = item;
+      this.open = true;
     },
 
     close() {
-      this.open = false; // tutup modal
+      this.open = false;
     },
   }));
 
